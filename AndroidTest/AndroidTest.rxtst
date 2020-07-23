@@ -41,14 +41,14 @@
 			name="StartVBS"
 			ref="ec9fbe99-1523-4e2f-a0b2-da49e9019521"
 			type="Recording">
-				<missingdatabinding>
+				<databinding>
 					<var
 					dataname="Devices"
 					datasourceid="e9ca83a3-3a2a-4101-bfb3-c32bca6aeffd"
 					variableid="45a6f65b-113d-435d-9662-ab20f4d8343f"
 					variablename="varMobileDevice">
 					</var>
-				</missingdatabinding>
+				</databinding>
 			</testmodule>
 			<setup
 			id="3c2b5fdd-20da-489e-8cdb-e3f252d0b45c"
@@ -114,7 +114,7 @@
 				</missingdatabinding>
 			</testmodule>
 			<testcase
-			datasource="NewConnector2"
+			datasource="NewConnector1"
 			id="a351ec1d-b2c1-43ba-bb2e-59b408643893"
 			name="TestCase">
 			</testcase>
@@ -263,7 +263,7 @@
 		</DataSource>
 		<DataSource
 		id="e9ca83a3-3a2a-4101-bfb3-c32bca6aeffd"
-		lastknownrowcount="1"
+		lastknownrowcount="2"
 		name="NewConnector1"
 		type="Ranorex.Core.Data.SimpleDataConnector">
 			<lastknowncolumns>
@@ -287,10 +287,16 @@
 				</tr>
 				<tr>
 					<td>
-						Pixel 3 XL
+						SM-G960F
 					</td>
 					<td>
 						Pixel 3 XL
+					</td>
+				</tr>
+				<tr>
+					<td>
+					</td>
+					<td>
 					</td>
 				</tr>
 			</table>
