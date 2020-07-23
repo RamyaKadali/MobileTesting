@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ec9fbe99-1523-4e2f-a0b2-da49e9019521"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartVBS"
+	namespace="AndroidTest">
+	</codegen>
+	<variables>
+		<var
+		id="45a6f65b-113d-435d-9662-ab20f4d8343f"
+		name="varMobileDevice">
+			USB-8BFY0YN86
+		</var>
+	</variables>
+	<recorditems>
+		<runmobileapprecorditem
+		application="com.vodafone.viewer"
+		devicename="SM-G960F"
+		duration="3500ms"
+		enabled="True"
+		optional="False"
+		resetInitialState="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</runmobileapprecorditem>
+	</recorditems>
+	<repository
+	id="994af1fa-5b83-48a1-92fe-3e56795c76de"
+	name="AndroidTestRepository"
+	relativepath="AndroidTestRepository.rxrep">
+		<codegen
+		classname="AndroidTestRepository"
+		namespace="AndroidTest">
+		</codegen>
+		<rootfolder
+		id="842f6ac9-a86f-4939-9a8f-2e8db93d9162"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartVBS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

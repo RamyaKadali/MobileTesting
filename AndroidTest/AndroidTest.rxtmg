@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AndroidTest"
+      id="0abe1d88-9f7f-4b2e-a300-2f4f9f5f2883"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AndroidTest"
+      id="0abe1d88-9f7f-4b2e-a300-2f4f9f5f2883"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

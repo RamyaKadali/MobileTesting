@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9b9420c3-5330-4c3c-b2d0-5ad391cb5870"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="AndroidTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="994af1fa-5b83-48a1-92fe-3e56795c76de"
+	name="AndroidTestRepository"
+	relativepath="AndroidTestRepository.rxrep">
+		<codegen
+		classname="AndroidTestRepository"
+		namespace="AndroidTest">
+		</codegen>
+		<rootfolder
+		id="842f6ac9-a86f-4939-9a8f-2e8db93d9162"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="65eb6c5e-3de7-47ee-a947-c5804750c271"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseVBS"
+	namespace="AndroidTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="60042e68-9bf0-423e-9422-3251c538499e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="40db7e37-5839-4436-9b34-2863656fb47c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="mobileapp, androidapp"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				prefcap="mobileapp"
+				rect="0,0,1440,2621"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="True">
+					<attribute
+					name="devicename"
+					type="System.String">
+						USB-8BFY0YN86
+					</attribute>
+					<attribute
+					name="deviceorientation"
+					type="Ranorex.Core.Remoting.DeviceOrientation, Ranorex.Core, Culture=neutral">
+						Portrait
+					</attribute>
+					<attribute
+					name="name"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="osversion"
+					type="System.String">
+						Android 10
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="versioncode"
+					type="System.String">
+						Not available
+					</attribute>
+					<attribute
+					name="versionname"
+					type="System.String">
+						Not available
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.vodafone.viewer']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="994af1fa-5b83-48a1-92fe-3e56795c76de"
+	name="AndroidTestRepository"
+	relativepath="AndroidTestRepository.rxrep">
+		<codegen
+		classname="AndroidTestRepository"
+		namespace="AndroidTest">
+		</codegen>
+		<rootfolder
+		id="842f6ac9-a86f-4939-9a8f-2e8db93d9162"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseVBS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
